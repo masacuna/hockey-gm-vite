@@ -9710,7 +9710,7 @@ function HockeyGM() {
                 ...gameState,
                 season: newSeason,
                 year: newYear,
-                currentDay: 0,
+                currentDay: 1,
                 players: allPlayersForNewSeason,
                 standings: resetStandings,
                 schedule: newSchedule,
@@ -25012,7 +25012,7 @@ return (
 
                             <h3 style={{ color: '#93c5fd', marginTop: '1.5rem' }}>Reading the Stats</h3>
                             <ul style={{ lineHeight: '2', color: '#e2e8f0' }}>
-                                <li><strong>+/- Matters:</strong> High +/- means player is on ice for goals for > against</li>
+                                <li><strong>+/- Matters:</strong> High +/- means player is on ice for goals for &gt; against</li>
                                 <li><strong>TOI = Value:</strong> Players with high TOI are trusted by "coach"</li>
                                 <li><strong>Shots = Chances:</strong> High shots usually means offensive zone time</li>
                                 <li><strong>PIM:</strong> Some penalty minutes are fine, too many hurt team</li>
@@ -29238,3 +29238,4 @@ return (
 
 
 export default HockeyGM;
+
